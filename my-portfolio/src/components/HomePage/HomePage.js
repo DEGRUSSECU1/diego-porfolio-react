@@ -7,6 +7,7 @@ export const HomePage = () => {
       {/* beginning of navbar */}
       <nav className='nav-bar'> 
           <div className='box'>
+           
            <a href='https://www.google.com'><img src='./img/spaceman.png' alt="linkedinprofile" /></a>
            </div>
            <div className='box'>
