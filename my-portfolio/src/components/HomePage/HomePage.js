@@ -4,6 +4,7 @@ import React from 'react'
 export const HomePage = () => {
   return (
     <div className='container'>
+ 
       {/* beginning of navbar */}
       <nav className='nav-bar'> 
           <div className='box'>

@@ -1,7 +1,13 @@
+.container{
+    background-image: url("../img/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
 .nav-bar{
     display: flex;
-    align-items: center;
-    justify-content: space-around;  
+    align-items: flex-start;
+
 }
 
 .box img{
@@ -21,7 +27,14 @@
 
   .container-sun{
     position: relative;
-    
+    background: url(../img/sundiego.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-image: url();
+
   }
 .avatar{
     position: absolute;
