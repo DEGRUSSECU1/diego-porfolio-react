@@ -1,5 +1,11 @@
 @import "./home.css";
-
+@import "../NavBar/navBar.module.css";
+@font-face{
+    font-family: "Brice-Black";
+    src: local("Brice-Black"),
+    url("./fonts/TextFonts.net_brice-font-family/Brice-Black.otf");
+    font-weight: bold;
+}
 html{
     font-size: 30px;
   }

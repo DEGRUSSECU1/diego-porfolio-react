@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App.js';
-
+import "./components/css/fonts/TextFonts.net_brice-font-family/Brice-Black.otf";
 
 ReactDOM.render(
   <React.StrictMode>

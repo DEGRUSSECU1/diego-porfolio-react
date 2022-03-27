@@ -1,4 +1,3 @@
-
 .container{
     background-image: url("../img/halfbackground.png");
     background-size: cover;
@@ -13,7 +12,7 @@
     position: absolute;
 
     padding: 0px;
-    width: 100vw;
+    width: 90vw;
     max-width: 100%;
     left: 25%;
     bottom: 5%;
@@ -39,25 +38,26 @@
 
 .star{
     width: 20vw;
-    height: 20vh;
-    left: 70%;
+    min-width: 100px;
+    left: 22%;
+    position: absolute;
+    z-index:-5;
+
 }
 
 .name-container{
     display: flex;
     flex-direction: column; 
-    margin-top: 5%;
-    margin-left: 10%;
-    
+    margin-top: 2%;
+    margin-left: 8%;
+    font-family: "Brice-Black";
     align-items: flex-start;
 }
-
 .name{
-    font-size: 2rem;
+    position: relative;
+    left: 10%;
 }
-.job{
-    font-size: 1.5rem;
-}
+
 .rocket-container{
     display: flex;
     align-items: flex-start;
@@ -68,13 +68,12 @@
     height: 30vh;
 
 }
-.button{
-    display: flex;   
-    justify-content: center;
-    right: 20%; 
-}
 
 .btn{
+    display: flex;   
+    justify-content: flex-start;
+    position: relative;
+    left: 25%;
     border-radius: 16px;
     background-color: red;
     font-size: 30px;

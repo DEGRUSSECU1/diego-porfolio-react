@@ -16,13 +16,10 @@ export const HomePage = () => {
         </div>
         <h2 className='job'>Software Developer</h2>
          </div> 
-         <div className='button'>
-           
+
            <button className='btn'>
                About me
            </button>
-         
-       </div>
        {/* beginning of name container */} 
        
         <div className='sun-container'>
