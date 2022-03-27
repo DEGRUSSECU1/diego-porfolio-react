@@ -2,8 +2,9 @@
     display: flex;
     margin-top: 20px;
     align-items:flex-start;
-    gap: 3rem;
+    gap: 1rem;
     font-family: "Brice-Black";
+    font-size: 20px;
  
     
 }
