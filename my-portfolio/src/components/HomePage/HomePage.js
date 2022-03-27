@@ -29,7 +29,7 @@ export const HomePage = () => {
         </div>
        
          <div className='rocket-container'>
-          <img src="./img/school.png" className='rocket' /> 
+          <img src="./img/school.png" className='logo' /> 
           <img src="./img/rocket.png" className='rocket' /> 
        
           </div>

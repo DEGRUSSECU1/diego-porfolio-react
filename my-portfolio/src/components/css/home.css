@@ -8,25 +8,22 @@
 
 
 .avatar{
-    display: flex;
+    min-width: 50%;
     position: absolute;
-
-    padding: 0px;
-    width: 90vw;
-    max-width: 100%;
     left: 25%;
+    width: 50vw;
+    left: 45%;
     bottom: 5%;
-    right: 0;
     z-index:-5;
+    
     
 }
 .nebula{
     position: absolute;
     z-index:-5;
     padding: 0px;
-    width: 100vw;
-    max-width: 100%;
-    left: 20%;
+    width: 90vw;
+    left: 28%;
     bottom: 0;
     right: 0;
     
@@ -60,12 +57,21 @@
 
 .rocket-container{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     
 }
 .rocket{
-    width: 30vw;
-    height: 30vh;
+    width: 10vw;
+    margin-top: 3%;
+    margin-left: 12%;
+    transform: rotate(-15deg);
+    margin-bottom: 2%;
+
+}
+.logo{
+    width: 10vw;
+    margin-top: 3%;
+    margin-left: 12%;
 
 }
 
@@ -73,9 +79,10 @@
     display: flex;   
     justify-content: flex-start;
     position: relative;
-    left: 25%;
-    border-radius: 16px;
-    background-color: red;
+    left: 20%;
+    border-radius: 30px;
+    background-color: #ff5757;
     font-size: 30px;
-    color: white;    
+    color: white;  
+    padding: 10px 40px 10px 40px;  
 }
