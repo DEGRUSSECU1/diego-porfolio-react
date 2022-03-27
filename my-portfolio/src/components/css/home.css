@@ -1,101 +1,82 @@
+
 .container{
-    background-image: url("../img/background.png");
+    background-image: url("../img/halfbackground.png");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-}
-.nav-bar{
-    display: flex;
-    align-items: flex-start;
-
+ 
 }
 
-.box img{
-    height: 20vh;
-    min-width: 10vw;
-    border-radius: 50%;
-    height: 20vh;
-    width: 20vw;
-    border-radius: 50%;
-    margin: 10px;
-    box-shadow: 5px 10px rgb(204, 70, 70);
 
-  }
-.box img:hover{
-    background-color: white;
-}
-
-  .container-sun{
-    position: relative;
-    background: url(../img/sundiego.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
-    background-image: url();
-
-  }
 .avatar{
+    display: flex;
     position: absolute;
-    float: right;
-    left: 20%;
-    width: 90vw;
+
+    padding: 0px;
+    width: 100vw;
+    max-width: 100%;
+    left: 25%;
+    bottom: 5%;
+    right: 0;
+    z-index:-5;
+    
 }
 .nebula{
     position: absolute;
-    width: 90vw;
-    left: 28%;
+    z-index:-5;
+    padding: 0px;
+    width: 100vw;
+    max-width: 100%;
+    left: 20%;
+    bottom: 0;
+    right: 0;
     
 }
 .star-box{
     display: flex;
-   
+    align-items: center;
 }
 
 .star{
-    display: flex;
-    width: 10px;
-    height: 10px;
-
-   
+    width: 20vw;
+    height: 20vh;
+    left: 70%;
 }
-.name-container, h2{
-    position: absolute;
-    justify-content: flex;
-    flex-direction: column; 
-    float: left;
-    margin-top: 10%;
-    align-items: center;
-    left:10%;
 
+.name-container{
+    display: flex;
+    flex-direction: column; 
+    margin-top: 5%;
+    margin-left: 10%;
+    
+    align-items: flex-start;
+}
+
+.name{
+    font-size: 2rem;
+}
+.job{
+    font-size: 1.5rem;
 }
 .rocket-container{
     display: flex;
     align-items: flex-start;
-    width: 50%;
-    float: left;
-    justify-content: center;
+    
 }
 .rocket{
-    position: absolute;
     width: 30vw;
     height: 30vh;
-    justify-content: center;
-    margin:5px 10px 5px 0px;
-    top:70%
+
 }
 .button{
-    width: 50%;
-    display: flex;
+    display: flex;   
     justify-content: center;
+    right: 20%; 
 }
+
 .btn{
     border-radius: 16px;
     background-color: red;
     font-size: 30px;
-    color: white;
+    color: white;    
 }
-
-
-
