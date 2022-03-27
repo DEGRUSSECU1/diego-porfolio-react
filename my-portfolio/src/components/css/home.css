@@ -2,7 +2,7 @@
     background-image: url("../img/halfbackground.png");
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
+ 
  
 }
 
@@ -13,19 +13,21 @@
     left: 25%;
     width: 50vw;
     left: 45%;
-    bottom: 10%;
+    bottom: 13%;
     z-index:-5;
+    max-width: 100%;
+ 
     
     
 }
 .nebula{
     position: absolute;
     z-index:-5;
-    padding: 0px;
-    width: 90vw;
-    left: 28%;
+    width: 70vw;
+    left: 30%;
     bottom: 0;
     right: 0;
+    max-width: 100%;
     
 }
 .star-box{
