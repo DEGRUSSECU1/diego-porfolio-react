@@ -1,5 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { NavBar } from '../NavBar/NavBar'
+
 
 export const HomePage = () => {
   return (
@@ -16,10 +18,13 @@ export const HomePage = () => {
         </div>
         <h2 className='job'>Software Developer</h2>
          </div> 
-
-           <button className='btn'>
-               About me
-           </button>
+            <Link to="about" style={{textDecoration:"none"}} >
+            <button className='btn' >
+           
+                About me
+            </button>
+            </Link>
+          
        {/* beginning of name container */} 
        
         <div className='sun-container'>
@@ -29,7 +34,7 @@ export const HomePage = () => {
         </div>
        
          <div className='rocket-container'>
-          <img src="./img/school.png" className='logo' /> 
+          
           <img src="./img/rocket.png" className='rocket' /> 
        
           </div>

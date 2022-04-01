@@ -1,12 +1,21 @@
 import { HomePage } from "./components/HomePage/HomePage";
-
+import { AboutMePage } from "./components/AboutMePage/AboutMePage";
+import { Projects } from "./components/Projects/Projects";
+import { Routes, Route} from "react-router-dom";
 import "./components/css/App.css";
 
 function App() {
   return (
-    <>
-      <HomePage/>
-    </>
+  <div>
+        
+      <Routes>
+          <Route path="/" element={<HomePage/>} />
+          <Route path="about" element={<AboutMePage/>}/>
+          <Route path="projects"element={<Projects/>}/> 
+
+      </Routes>
+      
+    </div>
   );
 }
 

@@ -5,13 +5,14 @@
     gap: 1rem;
     font-family: "Brice-Black";
     font-size: 20px;
- 
+
+
     
 }
 
 .box {
     
-    max-width: 100%;
+    min-width: 5w;
     width: 5vw;
     margin: 20px ;
     padding: 0px;

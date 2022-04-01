@@ -2,7 +2,10 @@
     background-image: url("../img/halfbackground.png");
     background-size: cover;
     background-repeat: no-repeat;
- 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  
  
 }
 
@@ -87,4 +90,5 @@
     font-size: 30px;
     color: white;  
     padding: 10px 40px 10px 40px;  
+
 }
