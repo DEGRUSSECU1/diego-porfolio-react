@@ -14,7 +14,7 @@ export const HomePage = () => {
             <div className='name-container'>
          <h1 className='name'>Hi, I'm <br></br> Diego </h1>
         <div className='star-box'>
-            <img src="./img/star.png" className='star' alt='image star'/>
+            <img src="./img/star.png" className='star' alt=' star'/>
         </div>
         <h2 className='job'>Software Developer</h2>
          </div> 
@@ -30,13 +30,13 @@ export const HomePage = () => {
        
         <div className='sun-container'>
           
-            <img src="./img/nebula.png" className='nebula' alt='image nebula' />
-            <img src="./img/sundiego.png" className='avatar' alt='image sun'/>
+            <img src="./img/nebula.png" className='nebula' alt=' nebula' />
+            <img src="./img/sundiego.png" className='avatar' alt=' sun'/>
         </div>
        
          <div className='rocket-container'>
           
-          <img src="./img/rocket.png" className='rocket' alt='image rocket' /> 
+          <img src="./img/rocket.png" className='rocket' alt='rocket' /> 
        
           </div>
 
