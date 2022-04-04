@@ -5,7 +5,7 @@ export const NavBar = () => {
   return (
     <nav className={css.navBar}> 
      <Link to="/"> 
-     <img src='./img/spaceman.png' alt="linkedinprofile" className={css.box} />
+     <img src='./img/spaceman.png' alt="space man image" className={css.box} />
      </Link>
    
      <h1>Welcome<br/> to my <br/> portfolio</h1>
