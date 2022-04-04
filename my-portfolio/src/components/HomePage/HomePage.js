@@ -18,12 +18,13 @@ export const HomePage = () => {
         </div>
         <h2 className='job'>Software Developer</h2>
          </div> 
-            <Link to="about" style={{textDecoration:"none"}} >
+            <Link   to="about" >
             <button className='btn' >
            
                 About me
             </button>
             </Link>
+         
           
        {/* beginning of name container */} 
        
