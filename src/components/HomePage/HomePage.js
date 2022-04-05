@@ -5,7 +5,7 @@ import { NavBar } from '../NavBar/NavBar'
 
 export const HomePage = () => {
   return (
-    <div className='home-page'>
+    <div className='container'>
       {/* beginning of navbar */}
       <NavBar/>
       {/* end of navbar */} 

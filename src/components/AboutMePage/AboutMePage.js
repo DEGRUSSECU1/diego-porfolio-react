@@ -18,7 +18,7 @@ const AboutMePage = () => {
  
   return (
     <>
-      <div className="container about-page">
+      <div className="container-about">
       <NavBar/>
         <div className="text-zone ">
           <h1 className='title' >
