@@ -1,15 +1,10 @@
 
 import React from 'react'
 import { NavBar } from '../NavBar/NavBar'
-import { useEffect, useState } from 'react'
 import {
-  faAngular,
   faCss3,
-  faGit,
   faGitAlt,
   faHtml5,
-  faJsSquare,
-  faNode,
   faNodeJs,
   faReact,
   faSass,
