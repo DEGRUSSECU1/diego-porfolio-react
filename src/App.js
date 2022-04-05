@@ -1,5 +1,5 @@
 import { HomePage } from "./components/HomePage/HomePage";
-import { AboutMePage } from "./components/AboutMePage/AboutMePage";
+import  AboutMePage  from "./components/AboutMePage/AboutMePage";
 import { Projects } from "./components/Projects/Projects";
 import { Routes, Route} from "react-router-dom";
 
