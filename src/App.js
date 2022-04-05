@@ -2,7 +2,7 @@ import { HomePage } from "./components/HomePage/HomePage";
 import { AboutMePage } from "./components/AboutMePage/AboutMePage";
 import { Projects } from "./components/Projects/Projects";
 import { Routes, Route} from "react-router-dom";
-import "./components/css/App.css";
+
 
 function App() {
   return (

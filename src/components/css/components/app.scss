@@ -1,0 +1,12 @@
+@import "../base/base";
+
+//components
+@import "./navbar";
+@import "./homepage";
+@import "./font";
+
+body{
+    background-color: black;
+    color: white;
+}
+
