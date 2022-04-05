@@ -1,3 +1,13 @@
+.about-page{
+    background-image: url("../img/halfbackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+
+    
+
+ 
+}
 .stage-cube-cont {
     width: 50%;
     height: 100%;
@@ -9,13 +19,16 @@
     overflow: hidden;
   }
 
+
   .text-zone {
     position: absolute;
     left: 10%;
-    top: 50%;
-    transform: translateY(-50%);
+    text-align: justify;
     width: 40%;
     max-height: 90%;
+    font-size: 1.3rem;
+    font-family: "Brice-SemiBoldSemiExpanded";
+    line-height: 1.8;
   }
   .cubespinner {
     animation-name: spincube;

@@ -1,13 +1,13 @@
 
-.container{
+.home-page{
     background-image: url("../img/halfbackground.png");
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
-    height: 100vh;
     width: 100vw;
+    height: 100vh;
+    margin-bottom: 19%;
     
- 
 }
 
 
@@ -77,12 +77,6 @@
     margin-bottom: 2%;
 
 }
-.logo{
-    width: 10vw;
-    margin-top: 3%;
-    margin-left: 12%;
-
-}
 
 .btn{
     position: relative;
@@ -90,7 +84,7 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     color: white;  
-    background-color: $purple-button;
+    background-color: #833ab4;
     font-family: "Brice-Black";
     outline: 2px solid white;
     position: relative;
@@ -104,7 +98,7 @@
 
 }
 .btn:hover{
-    color: $purple-button;
+    color: #833ab4;
 }
 .btn::before{
     content: '';

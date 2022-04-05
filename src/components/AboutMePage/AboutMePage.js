@@ -20,8 +20,8 @@ const AboutMePage = () => {
     <>
       <div className="container about-page">
       <NavBar/>
-        <div className="text-zone">
-          <h1>
+        <div className="text-zone ">
+          <h1 className='title' >
             About Me
           </h1>
           <p>
